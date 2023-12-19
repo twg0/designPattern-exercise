@@ -9,7 +9,8 @@ public class SwingObserverExample {
 	JFrame frame;
 
 	public static void main(String[] args) {
-
+		SwingObserverExample example = new SwingObserverExample();
+		example.go();
 	}
 
 	public void go() {
