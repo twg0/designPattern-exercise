@@ -12,6 +12,6 @@ public class Whip extends CondimentDecorator{
 
 	@Override
 	public double cost() {
-		return .10;
+		return beverage.cost() + .10;
 	}
 }
